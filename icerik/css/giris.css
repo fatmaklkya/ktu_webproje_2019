@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+body{
+	background-color: #ccc;
+	height: 100vh;
+	overflow-y: hidden;
+	font-family: 'Open Sans',sans-serif;
+	background-image: url('../img/samanyolu.jpg');
+	
+}
+textarea:focus, button:focus, input:focus{
+    outline: none;
+
+    box-shadow: 0px 0px 20px black;
+}
+.input{
+	padding: 6px;
+	border-radius: 20px;
+	border-width: 0px;
+	font-size: 14px;
+	line-height: 14px;
+	margin: 10px 0px 10px 0px;
+	box-shadow: 0px 0px 10px black;
+}
+button{
+	background-color: #3577e0;
+	box-shadow: 0px 0px 10px black;
+	padding: 10px;
+	color:white;
+	border-radius: 20px;
+	margin: 10px auto 10px auto;
+	border-width: 0px;
+}
+.wrap{
+	box-shadow: 0px 0px 10px black;
+	margin-left: auto;
+	margin-right: auto;
+	display: block; 
+	position: relative;
+	text-align: center;
+	background-color: rgba(255,255,255,0.2);
+	width: 20vw;
+	height: 37vh;
+	top:25vh;
+	padding: 20px;
+	border-radius: 20px;
+}
+.hata{
+	color:red;
+	font-size: 15px;
+	animation: goster 2s forwards;
+	text-shadow: 1px 1px 2px black;
+}
+@keyframes goster{
+	from{ opacity: .1 }
+	to{ opacity: 1 }
+}
+h2{
+	color: white;
+	text-shadow: 0 0 15px black;
+}

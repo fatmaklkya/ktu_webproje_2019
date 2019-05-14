@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+h2{
+	font-family: 'Montserrat',sans-serif;
+}
+body{
+	font-family: 'Roboto',sans-serif;
+	position: relative;
+	height: 100vh;
+	overflow-y: hidden;
+	background-color: #ddd;
+}
+ul,li{
+	list-style-type: none;
+}
+h2{
+	text-shadow: 0 0 15px black;
+}
+.navbar{
+
+	background-color: #5998ff;
+	width: 18vw;
+	height: 100vh;
+	position: absolute;
+	left:-8px;
+	top:-8px;
+}
+table.table {
+  position: relative;
+  left:10px;
+  top: 10px;
+  width: 23.5vw;
+  border: 1px solid #1C6EA4;
+  background-color: #EEEEEE;
+  text-align: left;
+}
+table.table td, table.table th {
+  border: 1px solid #AAAAAA;
+  padding: 1px 1px;
+}
+table.table tbody td {
+  font-size: 13px;
+}
+table.table tr:nth-child(even) {
+  background: #D0E4F5;
+}
+table.table thead {
+  background: #1C6EA4;
+  border-bottom: 2px solid #444444;
+}
+table.table thead th {
+  font-size: 15px;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+table.table tfoot td {
+  font-size: 14px;
+}
+table.table tfoot .links {
+  text-align: right;
+}
+table.table tfoot .links a{
+  display: inline-block;
+  background: #1C6EA4;
+  color: #FFFFFF;
+  padding: 2px 8px;
+  border-radius: 5px;
+}
+li{
+	font-family: 'Montserrat',sans-serif;
+	color:#fff;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	padding: 12px;
+	text-align: center;
+	margin-top: 20px;
+	border-radius: 20px;
+	background-color: rgba(0,0,0,0.5);
+	width: 15vw;
+}
+li:hover{
+	background-color: rgba(0,0,0,0.7);
+	cursor: pointer;
+}
+.uzaylogo{
+	width: 75px;
+	height: 75px;
+	border-radius: 75px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	margin-top: 10px;
+	background-image: url('../img/samanyolu.jpg');
+	background-position: center;
+}
+
+textarea:focus, button:focus, input:focus{
+    outline: none;
+
+    box-shadow: 0px 0px 20px black;
+}
+.input{
+	padding: 8px;
+	border-radius: 20px;
+	border-width: 0px;
+	font-size: 14px;
+	line-height: 14px;
+	margin: 10px 0px 10px 10px;
+	box-shadow: 0px 0px 10px black;
+}
+button{
+	background-color: #3577e0;
+	box-shadow: 0px 0px 10px black;
+	padding: 10px;
+	color:white;
+	border-radius: 20px;
+	margin: 10px auto 10px auto;
+	border-width: 0px;
+}
+.form{
+	position: absolute;
+	left:25vw;
+	top:0vh;
+	width: 50vw;
+	height: 90vh;
+	background-color:#ddd;
+	
+}
+#form1{
+	opacity: 0;
+	animation: goster .5s forwards;
+	z-index: 5;
+}
+#form2{
+	opacity: 0;
+}
+#form3{
+	opacity: 0;	
+}
+#form4{
+	opacity: 0;
+}
+#form5{
+	opacity: 0;
+}
+
+@keyframes goster{
+	from{opacity: 0}
+	to{opacity: 1}
+}
+@keyframes gizle{
+	from{opacity: 1}
+	to{opacity: 0}
+}
